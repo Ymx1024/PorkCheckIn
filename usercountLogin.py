@@ -137,7 +137,7 @@ def loginMain(headers_login):
     #初始化txt记录保存路径
     script_dir = os.path.dirname(os.path.abspath(__file__))
     path = ''
-    file_path_result = os.path.join('C:\\log', 'result.txt')
+    file_path_result = os.path.join(script_dir, 'result.txt')
     file_path_login = os.path.join(script_dir, 'LoginText.txt')
     file_path_user = os.path.join(script_dir, 'UserText.txt')
     with open(file_path_result, 'w', encoding='utf-8') as file:
